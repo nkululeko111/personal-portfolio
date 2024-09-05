@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/personal-project",
+            "outputPath": "docs",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -32,6 +32,7 @@
               "src/styles.css"
             ],
             "scripts": [],
+            "baseHref": "/personal-portfolio/",
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -52,7 +53,8 @@
                   "maximumError": "4kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/personal-portfolio/"
             },
             "development": {
               "optimization": false,

@@ -1,7 +1,7 @@
 
 # Personal Portfolio Website
 
-This project is a personal portfolio website created using Angular. It serves as a digital business card, showcasing my skills, projects, and professional identity. The website was developed as part of **Angular Assessment One**.
+This project is a personal portfolio website created using Angular. It serves as a digital business card, showcasing my skills, projects, and professional identity. The website was developed as part of **Angular Assessment One**.  view deployed site here https://personal-portfolio-cyan-tau.vercel.app/home
 
 ## Table of Contents
 
