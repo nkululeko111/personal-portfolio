@@ -34,10 +34,37 @@ html, body {
     border-radius: 8px; 
 }
 
-@media (max-width: 768px) {
-    header, section, footer {
-        margin: 10px;
-    }  
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .About {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .about-content {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .about-image {
+        width: 100%;
+        max-width: 300px; 
+    }
+}
+
+/* Animation for content */
+.about-content h1, .about-content p {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .back-btn {
