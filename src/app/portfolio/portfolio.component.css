@@ -23,13 +23,13 @@
 
 .portfolio-content p {
     font-size: 1.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    gap: 20px;
+    gap: 90px;
     width: 100%; 
     box-sizing: border-box; 
 }
