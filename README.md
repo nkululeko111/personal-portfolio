@@ -1,6 +1,3 @@
-Here’s a tailored `README.md` file for your project, based on the existing content and the assessment requirements:
-
----
 
 # Personal Portfolio Website
 
