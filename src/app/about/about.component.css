@@ -1,82 +1,45 @@
-/* General body settings */
-body, html {
-    height: 100%; 
+html, body {
     margin: 0;
     padding: 0;
-    background-color: rgb(185, 183, 183);
-    font-family: Arial, sans-serif;
+    height: 100%;
 }
 
-.content {
-    padding: 10px;
-    text-align: center;
-}
-
-section {
-    height: 100vh; 
+#about-section {
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #afb2b3;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin: 0; 
-    padding: 20px;
-    border-radius: 8px;
-}
-
-
-.About {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%; 
-    max-width: 1200px; 
-    margin: 0 auto; 
+    padding: 40px 20px; 
+    gap: 20px; 
+    min-height: 100vh; 
+    box-sizing: border-box; 
+    background-color: rgb(191, 194, 193);
 }
 
 .about-content {
     flex: 1;
-    padding-right: 20px;
+    max-width: 100%; 
 }
 
+.about-content h1 {
+    margin-top: 0;
+}
+
+.about-content p {
+    line-height: 1.6;
+}
 
 .about-image {
-    flex: 0 0 400px; 
-    max-width: 100%;
+    max-width: 20%; 
     height: auto;
-    border-radius: 8px;
+    border-radius: 8px; 
 }
 
-/* Make sure the image doesn't get too big on smaller screens */
-@media screen and (max-width: 768px) {
-    .About {
-        flex-direction: column; 
-        text-align: center;
-    }
-
-    .about-content {
-        padding-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .about-image {
-        width: 100%;
-        max-width: 300px; 
-    }
+@media (max-width: 768px) {
+    header, section, footer {
+        margin: 10px;
+    }  
 }
 
-.about-content h1, .about-content p {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 1s forwards;
-}
-
-@keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 .back-btn {
     position: fixed;
     top: 20px; 
@@ -93,5 +56,17 @@ section {
 .back-btn:hover {
     background-color: #158862;
 }
+main {
+    flex: 1;
+}
 
 
+.footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    position: fixed;
+  bottom: 0px;
+    width: 100%;
+    z-index: 1000; 
+}

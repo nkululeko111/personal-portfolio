@@ -44,4 +44,17 @@
 .navigation .btn:hover {
     background-color: #08290a;
 }
+main {
+    flex: 1;
+}
 
+/* Footer styling */
+.footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    position: fixed;
+  bottom: 0px;
+    width: 100%;
+    z-index: 1000; 
+}
