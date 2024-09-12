@@ -28,6 +28,14 @@
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
+.about-image {
+    width: 190px;  
+    height: 190px;  
+    border-radius: 50%;  
+    object-fit:contain;  
+
+}
+
 
 
 .navigation .btn {
